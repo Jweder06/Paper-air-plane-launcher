@@ -1,28 +1,19 @@
-# CPyProjectTemplate
-Put a description for your project here!
-This repo is a template VS code project for CircuitPython projects that automatically uploads your code to the board when you press F5. Requires F5Anything extension.
-## Use
-### Every new project:
-1. Make a GitHub account if you don't have one with your normal school credentials and sign into it.
-2. Click the big green Use This Template button at the top of this page.
-3. Name the new repository something appropriate to the purpose of your project (Your first one should probably be named `CircuitPython`).
-4. Hit "Create repository from template." (The default settings should be fine.)
-5. Open VS Code on your machine. Click Clone Repository.
-6. Paste in the link to the new repository you've just created from the template and hit enter.
-7. For the location, select the "STUDENT" drive if you have it or the document folder if you don't.
-8. Hit "Open Cloned Directory."
-9. Install the reccomended extensions when you get that popup in the lower right corner.
-### To commit from VS Code:
-1. Go to the little branch icon in the left bar of VS Code.
-2. Click the + icon next  to the files you want to commit.
-3. Write a message that descibes your changes in the "Message" box and hit commit.
-4. If you get an error about user.name and user.email, see the next section.
-5. Click the "Sync changes" button.
-### If you get an error about user.name and user.email
-1. Open Git Bash from the Windows Search Bar.
-2. FIlling in your actual information, run the following commands one line at a time. The paste shortcut is `Shift+Insert` or you can right click then hit paste. Spelling must match exactly:
-```
-git config --global user.name YOURUSERNAME
-git config --global user.email YOURSCHOOLEMAIL
-```
-3. Return to step 3 of the previous section.
+# Paper Air plane launcher
+This was a relatively complex project that aimed to launch a paper air plane with a geared robotic arm.
+## Planing
+Most of the planing was done with a google doc and MS paint and there was no schedule set out
+### Here are some inital drawings
+
+## Cad
+The cad was realtivly difucult creating 1 part that could hold 3 gears and the top of the box together. Complicated and compact that would hurt the consturction process later. 
+### Gears
+![image](https://user-images.githubusercontent.com/112961442/234099095-6adc4385-2095-47c9-b666-65f3ca1e5cb2.png)
+The gears where by far the most complicated part of the design process. It included to nut traps 3 interchanging gears a 1 arm mount.
+![image](https://user-images.githubusercontent.com/112961442/234100001-78696cd9-1386-4406-b197-9892231fd08b.png)
+The nut trap was needed to connect the paralell gear ste and make sure that they where spining in unison not figting against eachother.
+
+## Construction
+
+## Code
+
+## Reflection
