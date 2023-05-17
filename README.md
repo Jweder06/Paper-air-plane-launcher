@@ -26,9 +26,9 @@ The nut trap was needed to connect the paralell gear and make sure that they whe
 Overall I should have scrapped most of the design but becasue I had became too invested in this design I had not scrapped it.
 ## Construction
 
-## Wiering diagram
+## Wiring diagram
 ![image](https://github.com/Jweder06/Paper-air-plane-launcher/assets/112961442/2a74da22-1ff5-4ffb-8fd5-e194c2efdd39)
-This is a wiering digram of what the wiering of the final circut would have looked like
+This is a wiring digram of what the wiring of the final circut would have looked like
 ## Code
 
 ![photo-needed](https://github.com/Jweder06/circuitpython-/assets/112961442/e9c64cfc-a956-4477-a8fd-5e470419b6d4)
