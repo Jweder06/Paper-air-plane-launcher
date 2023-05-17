@@ -24,6 +24,7 @@ The gears where by far the most complicated part of the design process. It inclu
 The nut trap was needed to connect the paralell gear and make sure that they where spining in unison not figting against eachother.
 ![image](https://github.com/Jweder06/Paper-air-plane-launcher/assets/112961442/49b8b6ee-03f6-41b2-b1c9-904506accbc1)
 Overall I should have scrapped most of the design but becasue I had became too invested in this design I had not scrapped it.
+# Talk about standerdizing battery mount across projects and reusing working ideas,holding gear pins in place(construction?),The new strat of importing all bolts and nuts to test part fitting and how to make things easy to construct form CAD.
 ## Construction
 
 ## Wiring diagram
