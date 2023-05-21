@@ -24,8 +24,29 @@ The gears where by far the most complicated part of the design process. It inclu
 The nut trap was needed to connect the paralell gear and make sure that they where spining in unison not figting against eachother.
 ![image](https://github.com/Jweder06/Paper-air-plane-launcher/assets/112961442/49b8b6ee-03f6-41b2-b1c9-904506accbc1)
 Overall I should have scrapped most of the design but becasue I had became too invested in this design I had not scrapped it.
-# Talk about standerdizing battery mount across projects and reusing working ideas,holding gear pins in place(construction?),The new strat of importing all bolts and nuts to test part fitting and how to make things easy to construct form CAD.
+
+![image](https://github.com/Jweder06/Paper-air-plane-launcher/assets/112961442/9e04b531-347c-454f-b820-8ce5c71b38bf)
+
+This is a battery pack holder that I made for my last project and now use as standaed across all my projects. This is to speed up the design process and to make construction easer. I have also standerdized my control panel and arduino placement
+
+![image](https://github.com/Jweder06/Paper-air-plane-launcher/assets/112961442/dcb49d4c-6127-485a-a17d-aeec585e7870)
+These are both of the gear lock shafts that where used to hold the gears in place. These had a lot of iterations and required lots of tweaking. The end caps where redone aswell as the sperarting rings for a smother fit. These also had a complete redisgn that will be discused in the construction portion.
+![image](https://github.com/Jweder06/Paper-air-plane-launcher/assets/112961442/c9f1956c-1655-4802-812d-6ecd1b9c3af6)
+
+
+
+
+
+
+
+
+
+
+
+
 ## Construction
+
+# Making the actual arm fit onto the mount,wiering,difuclty with integrated complicated parts.
 
 ## Wiring diagram
 ![image](https://github.com/Jweder06/Paper-air-plane-launcher/assets/112961442/2a74da22-1ff5-4ffb-8fd5-e194c2efdd39)
@@ -37,3 +58,4 @@ This is a wiring digram of what the wiring of the final circut would have looked
 The code was verry limited and required and was verry bare bones.
 ## Reflection
 This project had many diffrent issues from the begining i lacked motivation and excitemnt I usaly have for projects stifilig my creative cading abilities that usaly make great designs.
+# partner
