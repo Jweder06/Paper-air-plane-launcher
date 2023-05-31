@@ -16,6 +16,7 @@ These were the initial drawings made in MS Paint they were used as reference poi
 
 ![image](https://github.com/Jweder06/Paper-air-plane-launcher/assets/112961442/a8e4fefe-ad51-498b-afbc-188c744aa3a2)
 
+<img src="https://github.com/Jweder06/Paper-air-plane-launcher/assets/112961442/a8e4fefe-ad51-498b-afbc-188c744aa3a2" alt="Jakob Weder" width="500">
 This this the drawing for the paper airplane holder which was worked by pushing a servo with a pad into an upright push pad which would clamp it down.
 
 ### Schedule
