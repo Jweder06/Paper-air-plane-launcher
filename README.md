@@ -25,7 +25,7 @@ This this the drawing for the paper airplane holder which was worked by pushing 
 
 There were many different issues with this project that didn't allow it to be completed this will be reviewed in the reflection.
 
-## Cad
+# Cad
 
 The cad was relatively difficult creating 1 part that could hold 3 gears and the top of the box together. The Complicated and compact part would hurt the construction process later. 
 
@@ -56,7 +56,7 @@ These are both of the gear lock shafts that were used to hold the gears in place
 
 This image represents a small change in my design process, the change is that I now import all bolts and nuts to make sure everything fits properly and is easily accessible for construction. This is especially useful when trying to make sure that bolts are long enough to reach certain nuts or to make sure they aren't interfering with any other part.
 
-## Construction
+# Construction
 
 ### Arm construction
 
@@ -81,17 +81,23 @@ The integrated parts had a lot of issues the primary one being that to replace a
 Originally the end caps didn't have a bolt hole and just a stopper, after printing I realized I couldn't have stoppers so I cut off the stoppers and drilled a bolt hole. Which ended up being u unnecessary because I needed a redesign anyway.
 ### Final fit and finish
 
-<img src="https://github.com/Jweder06/Cad/assets/112961442/fbf0d0ce-a4a2-468d-aa35-59163645e635" width="500">
+<img src="https://github.com/Jweder06/Centrifuge/assets/112961442/d09d7532-8e86-4464-9987-26ad0dd4dae9" width="500">
 
 The final fit was very good all the gears meshed together properly and all the walls fit perfectly. That is probably the only benefit of the integrated part system because each part is only constrained and affected by one part that is printed to perfect dimensions not constructed which can have some flaws. The wiring organization and planning were also good each wire had a place to go and pre-planned exit and entrance holes that led to the prototyping shield or the control panel.
 
-## Wiring diagram
+### Re-soldering the battery pack
+
+<img src="https://github.com/Jweder06/Centrifuge/assets/112961442/28420353-beb7-475f-9839-a58cc8a9d88d" width="500">
+
+I had to resolder the 5 volt wire on the 9 volt battery pack because the previous soldering job had ripped off and caused me a lot of confusion as I couldn't figure out why my power was missing.
+
+### Wiring diagram
 
 <img src="https://github.com/Jweder06/Paper-air-plane-launcher/assets/112961442/2a74da22-1ff5-4ffb-8fd5-e194c2efdd39" width="500">
 
 This is a wiring diagram of what the wiring of the final circuit looks like.
 
-## Code
+# Code
 ```python
 from time import sleep
 
