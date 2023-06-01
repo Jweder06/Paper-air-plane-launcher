@@ -60,7 +60,7 @@ This image represents a small change in my design process, the change is that I 
 
 ### Bill of materials
 
-<img src="https://github.com/Jweder06/Centrifuge/assets/112961442/e8184801-f393-425e-beef-bd03e74a8fb5" width="500">
+<img src="https://github.com/Jweder06/Centrifuge/assets/112961442/e4a19292-6f03-4b7e-aa82-578af97303e3" width="500">
 
 ### Arm construction
 
