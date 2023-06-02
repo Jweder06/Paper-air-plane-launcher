@@ -58,11 +58,16 @@ This image represents a small change in my design process, the change is that I 
 
 # Construction
 
+### Bill of materials
+
+<img src="https://github.com/Jweder06/Centrifuge/assets/112961442/e4a19292-6f03-4b7e-aa82-578af97303e3" width="500">
+
 ### Arm construction
 
 <img src="https://github.com/Jweder06/circuitpython-/assets/112961442/2ab5d763-eacb-4372-9f40-fa21383f205f" width="500">
 
 The arm required a few redesigns and was one of the main issues within the project It changed from being held together by a makeshift tea slot into a miniature bracket that held the arm pieces onto the gear shaft. This was done because although it probably required a full redesign I was out of time and just needed something that worked. It did end up working better than expected and holds the arm in securely.
+
 ### Soldering
 
 <img src="https://github.com/Jweder06/circuitpython-/assets/112961442/6ea91122-912c-4ff2-898e-a660f6a82223" width="500">
