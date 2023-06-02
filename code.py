@@ -16,7 +16,3 @@ while True:
     Servo2.angle = 180
     Servo1.angle = 180
     time.sleep(1)
-
-while True:
-#    Servo1.angle = 70
-#    Servo2.angle = 70

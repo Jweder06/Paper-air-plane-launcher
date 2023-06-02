@@ -76,7 +76,7 @@ The integrated parts had a lot of issues the primary one being that to replace a
 
 ### End Caps
 
-<img src="https://github.com/Jweder06/Cad/assets/112961442/fbf0d0ce-a4a2-468d-aa35-59163645e635" width="500">
+<img src="https://github.com/Jweder06/Centrifuge/assets/112961442/a5dcc0ca-2796-4d5c-b90e-ed8d3076a9c3" width="500">
 
 Originally the end caps didn't have a bolt hole and just a stopper, after printing I realized I couldn't have stoppers so I cut off the stoppers and drilled a bolt hole. Which ended up being u unnecessary because I needed a redesign anyway.
 ### Final fit and finish
@@ -102,10 +102,32 @@ This is a wiring diagram of what the wiring of the final circuit looks like.
 from time import sleep
 
 while True:
-    print("Hello World!") ##Prints "Hello World!" to the serial monitor
-    sleep(1)
+#type: ignore
+from time import sleep
+import time
+import math
+import board
+import digitalio
+from digitalio import DigitalInOut, Direction, Pull
+from pwmio import PWMOut
+from adafruit_motor import servo
+Servo1 = servo.Servo(pwmio.PWMOut(board.D1 , duty_cycle=2 ** 15, frequency=50))
+Servo2 = servo.Servo(pwmio.PWMOut(board.D2, duty_cycle=2 ** 15, frequency=50))
+while True:
+    Servo2.angle = 0
+    Servo1.angle = 0
+    time.sleep(1)
+    Servo2.angle = 180
+    Servo1.angle = 180
+    time.sleep(1)
 ```
-The code still needs some work and once the rest of the project is complete will be done.
+The code was fundamentaly eaisy and required a few touch ups for a final project.
+
+## Final Product
+
+Insert image here
+
+The final product was almost functional The code and wiring were complete and so was the construction. The final issue was that the tork required was too heigh making it impossible to get the project to work  
 
 ## Reflection
 
