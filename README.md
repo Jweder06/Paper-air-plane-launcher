@@ -104,9 +104,6 @@ This is a wiring diagram of what the wiring of the final circuit looks like.
 
 # Code
 ```python
-from time import sleep
-
-while True:
 #type: ignore
 from time import sleep
 import time
@@ -116,23 +113,42 @@ import digitalio
 from digitalio import DigitalInOut, Direction, Pull
 from pwmio import PWMOut
 from adafruit_motor import servo
-Servo1 = servo.Servo(pwmio.PWMOut(board.D1 , duty_cycle=2 ** 15, frequency=50))
+buttonstate = "not pressed"
+Servo1 = servo.Servo(pwmio.PWMOut(board.D1 , duty_cycle=2 ** 15, frequency=50))     #Servosetup
 Servo2 = servo.Servo(pwmio.PWMOut(board.D2, duty_cycle=2 ** 15, frequency=50))
+button = DigitalInOut(board.D7)
+button.direction = Direction.INPUT
+button.pull = Pull.UP
+Bvalue = False
+Presscount = 1
+led = digitalio.DigitalInOut(board.D4)
+led.direction = digitalio.Direction.OUTPUT
 while True:
-    Servo2.angle = 0
-    Servo1.angle = 0
-    time.sleep(1)
-    Servo2.angle = 180
-    Servo1.angle = 180
-    time.sleep(1)
+    if button.value == 0 and buttonstate == "not pressed":
+        buttonstate = "pressed"     #Debounce
+        Bvalue = True
+        Presscount = Presscount + 1                  
+    if button.value == 1:
+        Bvalue = False
+        buttonstate = "not pressed"     #Debounce
+    if Bvalue == True and Presscount == 0:
+        Servo2.angle = 0        #servos reset
+        Servo1.angle = 180
+        Presscount = 1
+        led.value = True       #Power LED on  
+    if Bvalue == True and Presscount == 1:
+        led.value = False       #Power LED off    
+        Presscount = 0
+        Servo2.angle = 40
+        Servo1.angle = 220      #servos move
 ```
-The code was fundamentaly eaisy and required a few touch ups for a final project.
+The code was eaisy to make as it was very similar to the centrifuge code so I was able to copy some of the logic over.
 
 ## Final Product
 
 Insert image here
 
-The final product was almost functional The code and wiring were complete and so was the construction. The final issue was that the tork required was too heigh making it impossible to get the project to work  
+The final product was almost functional The code and wiring were complete and so was the construction. The final issue was that the torque required was too high making it impossible to get the project to work. 
 
 ## Reflection
 
