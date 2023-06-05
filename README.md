@@ -1,10 +1,17 @@
 # Paper Airplane launcher
 
 This was a relatively complex project that aimed to launch a paper air plane with a geared robotic arm.
-## Planing
+# Planing
 
 There was a thorough and set out plan which included drawings and a schedule.  this plan was used as a basis for all the work for the project and the drawings were fundamental to the creation of the onshape model. These drawings were made in Ms paint as a quick reference tool for when the CAD work needed to be completed. It was also used to explain our project to Mister H and to make a proof of concept that would help validate the initial idea.
 
+### Bill of materials
+
+<img src="https://github.com/Jweder06/Centrifuge/assets/112961442/e4a19292-6f03-4b7e-aa82-578af97303e3" width="500">
+
+### Criteria and constraints
+
+<img src="https://github.com/Jweder06/Centrifuge/assets/112961442/16511d95-36f6-4cef-aa4a-091f9e928a3b" width="500">
 
 ### Here are some initial drawings
 
@@ -57,10 +64,6 @@ These are both of the gear lock shafts that were used to hold the gears in place
 This image represents a small change in my design process, the change is that I now import all bolts and nuts to make sure everything fits properly and is easily accessible for construction. This is especially useful when trying to make sure that bolts are long enough to reach certain nuts or to make sure they aren't interfering with any other part.
 
 # Construction
-
-### Bill of materials
-
-<img src="https://github.com/Jweder06/Centrifuge/assets/112961442/e4a19292-6f03-4b7e-aa82-578af97303e3" width="500">
 
 ### Arm construction
 
@@ -146,7 +149,7 @@ The code was eaisy to make as it was very similar to the centrifuge code so I wa
 
 ## Final Product
 
-Insert image here
+![image](https://github.com/Jweder06/Centrifuge/assets/112961442/d720f4a6-0e9c-4a66-a013-3f7ca60645c0)
 
 The final product was almost functional The code and wiring were complete and so was the construction. The final issue was that the torque required was too high making it impossible to get the project to work. 
 
